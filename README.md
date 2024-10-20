@@ -34,7 +34,6 @@ This is a simple blog application built using React, allowing users to create, r
 2. Install the dependencies for the client:
 
    ```bash
-   cd client
    npm install
    ```
 
@@ -61,7 +60,7 @@ This is a simple blog application built using React, allowing users to create, r
 2. In another terminal, start the client:
 
    ```bash
-   cd ../client
+   cd blog-app
    npm start
    ```
 
@@ -72,11 +71,10 @@ This is a simple blog application built using React, allowing users to create, r
 ```
 /blog-app
 │
-├── /client           # Frontend code
-│   ├── /src          # Source files
-│   ├── /components   # React components
-│   ├── /pages        # Page components
-│   └── /styles       # CSS styles
+├── /src          # Source files
+├── /components   # React components
+├── /pages        # Page components
+└── /styles       # CSS styles
 │
 ├── /server           # Backend code
 │   ├── /models       # Mongoose models
