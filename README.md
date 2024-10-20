@@ -30,7 +30,7 @@ This is a simple blog application built using React, allowing users to create, r
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/blog-app.git
+   git clone https://github.com/Jay-Dalsaniya/blog-app.git
    cd blog-app
    ```
 ````
