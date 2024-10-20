@@ -119,4 +119,3 @@ _The form for editing an existing blog post._
 
 ![Delete Post](image-4.png)
 _The confirmation dialog for deleting a blog post._
-```
