@@ -1,6 +1,3 @@
-Here's a sample README file for your blog application that summarizes what you've built and how to set it up. You can adjust the details as necessary based on your project specifics.
-
-````markdown
 # Blog Application
 
 This is a simple blog application built using React, allowing users to create, read, update, and delete blog posts. The application utilizes a RESTful API to manage blog post data.
@@ -33,7 +30,6 @@ This is a simple blog application built using React, allowing users to create, r
    git clone https://github.com/Jay-Dalsaniya/blog-app.git
    cd blog-app
    ```
-````
 
 2. Install the dependencies for the client:
 
@@ -45,12 +41,12 @@ This is a simple blog application built using React, allowing users to create, r
 3. Install the dependencies for the server:
 
    ```bash
-   cd server
+   cd ../server
    npm install
    ```
 
 4. Set up the database connection:
-   - Make sure your MongoDB server is running.
+   - Ensure your MongoDB server is running.
    - Update the connection string in the server's configuration file to point to your MongoDB instance.
 
 ### Running the Application
@@ -65,7 +61,7 @@ This is a simple blog application built using React, allowing users to create, r
 2. In another terminal, start the client:
 
    ```bash
-   cd client
+   cd ../client
    npm start
    ```
 
@@ -123,3 +119,4 @@ _The form for editing an existing blog post._
 
 ![Delete Post](image-4.png)
 _The confirmation dialog for deleting a blog post._
+```
