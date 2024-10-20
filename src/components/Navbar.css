@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #333; /* Dark background for navbar */
+    padding: 1rem; /* Padding around navbar */
+  }
+  
+  .navbar-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space out logo and links */
+    align-items: center; /* Center items vertically */
+    max-width: 1200px; /* Max width for navbar */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .navbar-logo {
+    color: #ffffff; /* White color for logo */
+    font-size: 1.8rem; /* Larger font size for logo */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold font for logo */
+  }
+  
+  .navbar-links {
+    display: flex; /* Flexbox for links */
+  }
+  
+  .navbar-link {
+    color: #ffffff; /* White color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 0.5rem 1rem; /* Padding for links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
+  }
+  
+  .navbar-link:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #ffffff; /* Keep text color white on hover */
+    border-radius: 5px; /* Round corners on hover */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .navbar-links {
+      width: 100%; /* Full width for links container */
+      flex-direction: column; /* Stack links vertically */
+    }
+  
+    .navbar-link {
+      padding: 0.75rem 1rem; /* Increased padding for touch targets */
+      width: 100%; /* Full width for links */
+      text-align: center; /* Center text for links */
+    }
+  }
+  

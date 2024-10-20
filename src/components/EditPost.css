@@ -1,0 +1,58 @@
+.edit-post-container {
+    max-width: 600px; /* Set a max width for the edit post container */
+    margin: 2rem auto; /* Center the container */
+    padding: 2rem; /* Add padding inside the container */
+    background-color: #f9f9f9; /* Light gray background for the container */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  }
+  
+  .edit-post-title {
+    font-size: 2.5rem; /* Larger font size for the title */
+    color: #333; /* Darker color for better readability */
+    margin-bottom: 1rem; /* Space below the title */
+    text-align: center; /* Center the title */
+  }
+  
+  .edit-post-form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Stack form elements vertically */
+  }
+  
+  .edit-post-input,
+  .edit-post-textarea {
+    padding: 0.75rem; /* Padding for inputs */
+    margin-bottom: 1rem; /* Space below each input */
+    font-size: 1rem; /* Font size for inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Round corners for inputs */
+    transition: border-color 0.3s; /* Transition for border color */
+  }
+  
+  .edit-post-input:focus,
+  .edit-post-textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .edit-post-textarea {
+    min-height: 150px; /* Minimum height for textarea */
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .update-post-button {
+    padding: 0.75rem 1.5rem; /* Padding for button */
+    font-size: 1rem; /* Font size for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round corners for button */
+    cursor: pointer; /* Change cursor on hover */
+    background-color: #007bff; /* Blue background for button */
+    color: #fff; /* White text color */
+    transition: background-color 0.3s, transform 0.2s; /* Transition for hover effects */
+  }
+  
+  .update-post-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
